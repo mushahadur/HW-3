@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+</head>
+<body>
+
+
+  <!--Navbar Start-->
+  
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Contct</a></li> 
+                    <li class="nav-item"><a class="nav-link " href="login.html">Login</a></li> 
+                    <li class="nav-item"><a class="nav-link " href="register.html">Register</a></li>                     
+                </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+    <!--Navbar End-->
+
+    <div class="container-fluid ">
+      <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+    </div>
+    
+    
+      <!--Main Section start-->
+
+
+  
+      
+      <section class="py-3 mt-2" style="background-color: rgb(221, 226, 226);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="card border-secondary py-3">
+                        <div class="card-header text-center">
+                            <h2>Register Form</h2>
+                        </div>
+                        <div class="card-body ">
+
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">First Name</label>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" name="name"placeholder="Enter First Name"/>
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                    <label class="col-form-label col-md-4">Last Name</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter Last Name"/>
+                                    </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Phone Number</label>
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control" name="phone" placeholder="Enter Phone Number"/>
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Email</label>
+                                <div class="col-md-8">
+                                    <input type="email" class="form-control" name="email" placeholder="Enter Your Email"/>
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Password</label>
+                                <div class="col-md-8">
+                                    <input type="password" class="form-control" name="email" placeholder="Enter Your Password"/>
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Conform Password</label>
+                                <div class="col-md-8">
+                                    <input type="password" class="form-control" name="email" placeholder="Enter Conform Password"/>
+                                </div>
+                            </div>
+
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Gender</label>
+                                <div class="col-md-8">
+                                    <input class="mx-2" type="radio" name="Gender" >Mail
+                                    <input class="mx-2" type="radio" name="Gender" >Femail
+                                    <input class="mx-2" type="radio" name="Gender" >Other
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Date Of Birth </label>
+                                <div class="col-md-8">
+                                    <input  class="dob" type="date" name="date">
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Choose Your Photo : </label>
+                                <div class="col-md-8">
+                                    <input type="file" name="Photo">
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Hobby </label>
+                                <div class="col-md-8">
+                                    <input class="mx-2" type="checkbox" name="hobby">playing
+                                    <input class="mx-2" type="checkbox" name="hobby">Reading
+                                    <input class="mx-2" type="checkbox" name="hobby">singing
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Religion </label>
+                                <div class="col-md-8">
+                                    <input class="mx-2" type="radio" name="religion" >Islam
+                                    <input class="mx-2" type="radio" name="religion" >Hindu
+                                    <input class="mx-2" type="radio" name="religion" >Other
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Department: </label>
+                                <div class="col-md-8">
+                                    <select  class="option">
+                                        <option>..............select...............</option>
+                                        <option class="text-center">CSE</option>
+                                        <option class="text-center">EEE</option>
+                                        <option class="text-center">LLB</option>
+                                        <option class="text-center">MBBS</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Divition: </label>
+                                <div class="col-md-8">
+                                    <select  class="option">
+                                        <option>..............select...............</option>
+                                        <option class="text-center">Dhaka</option>
+                                        <option class="text-center">Khulna</option>
+                                        <option class="text-center">Mymensingh</option>
+                                        <option class="text-center">Rangpur</option>
+                                        <option class="text-center">Sylhet</option>
+                                        <option class="text-center">Chattogram</option>
+                                        <option class="text-center">Rajshahi</option>
+                                        <option class="text-center">Barishal</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row py-1">
+                                <label class="col-form-label col-md-4">Massage : </label>
+                                <div class="col-md-8">
+                                    <textarea class="massage" cols="40" rows="2"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row py-3">
+                                <label class="col-form-label col-md-8"></label>
+                                <div class="col-md-4">
+                                    <input type="submit" class="btn btn-outline-light btn-success" name="loginBtn" value="Submit"/>
+                                </div>
+                            </div>
+                                                           
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <!--Main Section end-->
+
+
+
+<!--Footer Section Start-->
+
+        <div class="container-fluid ">
+
+        </div>
+
+
+    <div class="container-fluid py-3 px-5 row justify-content-start">
+        <div class="spinner-grow text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
+        <p class="col-md-4 mb-0 text-muted">@copyright-2022: mushahadur rahaman khan</p>
+          <ul>
+              <li>
+                  <a href="http://www.google.com"><img src="img/gl.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+                  <a href="http://www.twitter.com"><img src="img/tw.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+                  <a href="http://www.linkedin.com"><img src="img/in.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+                  <a href="http://www.facebook.com"><img src="img/fb.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+              </li>
+          </ul>
+            
+      </footer>
+    </div>
+<!--Footer Section End-->
+
+  <script  src="js/bootstrap.js"></script>
+
+</body>
+</html>

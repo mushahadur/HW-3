@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+       
+</head>
+<body>
+
+
+  <!--Navbar Start-->
+  
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link " href="contact.html">Contct</a></li> 
+                  <li class="nav-item"><a class="nav-link " href="login.html">Login</a></li> 
+                  <li class="nav-item"><a class="nav-link " href="register.html">Register</a></li>                     
+                </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+    <!--Navbar End-->
+
+    <div class="container-fluid ">
+      <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+    </div>
+    
+    
+      <!--Main Section start-->
+
+
+      <section class="py-3 mt-2"style="background-color: rgb(221, 226, 226);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mx-auto">
+                    <div class="card border-secondary py-3">
+                        <div class="card-header text-center">
+                            <h3>Login Form</h3>
+                        </div>
+    
+                        <div class="card-body ">
+                            <form action="action.php" method="POST">
+                                <div class="form-group row py-1">
+                                    <label class="col-form-label col-md-4">User Name</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" name="name"/>
+                                    </div>
+                                </div>
+                                <div class="form-group row py-1">
+                                    <label class="col-form-label col-md-4">Email</label>
+                                    <div class="col-md-8">
+                                        <input type="email" class="form-control" name="email"/>
+                                    </div>
+                                </div>
+    
+                                <div class="form-group row py-1">
+                                    <label class="col-form-label col-md-4">Password</label>
+                                    <div class="col-md-8">
+                                        <input type="password" class="form-control" name="password"/>
+                                    </div>
+                                </div>
+    
+                                <div class="form-group row py-3">
+                                    <label class="col-form-label col-md-8"></label>
+                                    <div class="col-md-4">
+                                        <input type="submit" class="btn btn-outline-light btn-success" name="loginBtn" value="Login"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+        <!--Main Section end-->
+
+
+
+<!--Footer Section Start-->
+
+<div class="container-fluid ">
+
+</div>
+
+
+<div class="container-fluid py-3 px-5 row justify-content-start">
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</div>
+<div class="container-fluid bg-dark">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
+      <p class="col-md-4 mb-0 text-muted">@copyright-2022: mushahadur rahaman khan</p>
+        <ul>
+            <li>
+                <a href="http://www.google.com"><img src="img/gl.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+                <a href="http://www.twitter.com"><img src="img/tw.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+                <a href="http://www.linkedin.com"><img src="img/in.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+                <a href="http://www.facebook.com"><img src="img/fb.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;padding: 5px;"></a>
+            </li>
+        </ul>
+          
+    </footer>
+  </div>
+<!--Footer Section End-->
+
+<script  src="js/bootstrap.js"></script>
+
+</body>
+</html>
+
+ 
